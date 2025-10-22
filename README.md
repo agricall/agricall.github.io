@@ -1,2 +1,2 @@
 # agricall.github.io
-AgrI.CALL Proto Project
+AgrI.CALL Landing Page
