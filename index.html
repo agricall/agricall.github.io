@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<body>
 
-<h1>WORK!</h1>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Jeferson Cruz">
+    <meta name="theme-color" content="#359de0" />
+    <link rel="icon" href="img/blackfish-favicon.png">
+    <link rel="manifest" href="./manifest.json">
+    <title>AgrI.CALL | I.A. para agro commodities</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/application.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap core CSS/JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome Free (v7.1.0) via jsDelivr -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
 
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <div class="container">
+            <header class="d-flex justify-content-between align-items-center border-bottom">
+                <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+                    <span class="fs-5">
+                        <h1><i class="fas fa-chart-line fa-lg"></i>&nbsp;
+                            <b>A</b>gr<b>I</b>.<b>CALL</b>
+                        </h1>
+                    </span>
+                </a>
+            </header>
+            <!-- Main Content -->
+            <h2 class="text-body-emphasis">mercado agro em tempo real.</h2>
+            <p class="fs-5 col-md-12">
+                Com ajuda da <b>Inteligência Artificial</b>, tenha em mãos a tendência das commodities e estratégias de
+                comercialização da sua safra.
+            </p>
+            <hr />
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <img src="img/logo.jpg" alt="Mercado em tempo real" class="img-fluid rounded w-100">
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12">
+                        <h2 class="text-body-emphasis mb-0">Soja</h2>
+                        <p>
+                            Obtenha cotações atualizadas do Soja (CBOT/B3), Diferencial de Base (Mato Grosso) e
+                            estratégia de comercialização da safra.
+                        </p>
+                        <a href="#"> <i class="fas fa-tv fa-lg"></i>&nbsp; MONITORAMENTO DO SOJA</a>
+                    </div>
+                    <hr />
+                    <div class="col-md-12">
+                        <h2 class="text-body-emphasis mb-0">Milho</h2>
+                        <p>
+                            Obtenha cotações atualizadas do Milho (B3), Diferencial de Base (Mato Grosso) e estratégia
+                            de comercialização da safra.
+                        </p>
+                        <a href="#"> <i class="fas fa-tv fa-lg"></i>&nbsp; MONITORAMENTO DO MILHO</a>
+                    </div>
+                    <hr />
+                    <div class="col-md-12">
+                        <h2 class="text-body-emphasis mb-0">Boi Gordo</h2>
+                        <p>
+                            Obtenha cotações atualizadas do Boi Gordo (B3), Diferencial de Base (Mato Grosso) e
+                            estratégia de comercialização da safra.
+                        </p>
+                        <a href="#"> <i class="fas fa-tv fa-lg"></i>&nbsp; MONITORAMENTO DO BOI GORDO</a>
+                    </div>
+                    <hr />
+                    <div class="col-md-12">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h2 class="text-body-emphasis mb-0">Notificações</h2>
+                            <small class="badge bg-success text-white">🌟 premium</small>
+                        </div>
+                        <p>
+                            Receba notificações via WhatsApp ou Email sobre os resumos e estratégias de comercialização
+                            indicadas pela I.A. para cada commodity de acordo com dados personalizados.
+                        </p>
+                        <a href="#"> <i class="fas fa-paper-plane fa-lg"></i>&nbsp; CADASTRAR NOTIFICAÇÃO</a>
+                    </div>
+                    <hr />
+                    <div class="col-md-12">
+                        <h2 class="text-body-emphasis mb-0">Sobre</h2>
+                        <p>
+                            A <b>AgrI.CALL</b> é uma plataforma que utiliza Inteligência Artificial para fornecer
+                            análises de mercado em tempo real, ajudando produtores rurais a tomar decisões sobre a
+                            comercialização de suas safras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer class="pt-3 mt-4 mb-4 text-body-secondary border-top">
+                Copyright © 2025 | BLACKFISH.LABS
+            </footer>
+        </div>
+    </main>
 </body>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+    }
+</script>
+
 </html>
